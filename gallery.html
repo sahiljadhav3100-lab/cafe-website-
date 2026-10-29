@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Brew & Bloom Café</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">B</span><span>Brew <em>& Bloom</em><small>CAFÉ · EST. 2024</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="menu.html">Menu</a><a class="active" aria-current="page" href="gallery.html">Gallery</a><a href="booking.html">Book a Table</a><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch color theme">☾</button></nav>
+  </header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">A FEELING, IN FRAMES</p><h1>Little moments, <em>beautifully brewed.</em></h1><p>A peek at the coffee, colour and cosy corners that make our café feel like home.</p></section>
+    <section class="section gallery-section">
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall" type="button" data-full="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Coffee cup and coffee beans on a table"><span>Morning ritual ↗</span></button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Freshly baked artisan bread"><span>Fresh from the oven ↗</span></button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=80" alt="Warm and inviting cafe interior"><span>Your cosy corner ↗</span></button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="Sweet pastry topped with icing"><span>A little sweetness ↗</span></button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Iced coffee in a clear glass"><span>Chill moments ↗</span></button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1600&q=90"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Cafe seating and welcoming atmosphere"><span>Stay a little longer ↗</span></button>
+      </div>
+      <div class="media-card"><div><p class="eyebrow">TAKE A BREATHER</p><h2>A moment of café calm.</h2><p>Press play for a little ambient café sound while you explore.</p></div><audio controls preload="none"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">Your browser does not support audio playback.</audio></div>
+    </section>
+    <dialog id="lightbox" class="lightbox"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img id="lightboxImage" src="" alt="Expanded cafe gallery image"></dialog>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="index.html">Brew <em>& Bloom</em></a><p>Good things take time. We’ll save you a seat.</p><div class="footer-bottom"><span>© <span class="year"></span> Brew & Bloom Café</span><span>Made with care & a little caffeine.</span></div></footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Table | Brew & Bloom Café</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">B</span><span>Brew <em>& Bloom</em><small>CAFÉ · EST. 2024</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a class="active" aria-current="page" href="booking.html">Book a Table</a><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch color theme">☾</button></nav>
+  </header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">LET’S MAKE IT A DATE</p><h1>Save your <em>favourite seat.</em></h1><p>Fill in the details and we’ll prepare a cosy corner for you.</p></section>
+    <section class="section booking-layout">
+      <div class="booking-info"><p class="eyebrow">VISIT BREW & BLOOM</p><h2>Good coffee is<br><em>better together.</em></h2><p>Planning a catch-up, a quiet work session or a little celebration? Send us your preferred time.</p>
+        <div class="contact-detail"><span>⌖</span><div><strong>Find us</strong><p>Sample address, Pune, Maharashtra, India</p></div></div>
+        <div class="contact-detail"><span>◷</span><div><strong>Opening hours</strong><p>Mon–Sun · 9:00 AM – 9:00 PM</p></div></div>
+        <div class="contact-detail"><span>✉</span><div><strong>Say hello</strong><p>hello@example.com (sample contact)</p></div></div>
+        <div class="map-frame"><iframe title="Map of Pune, Maharashtra" src="https://www.google.com/maps?q=Pune%2C%20Maharashtra%2C%20India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      </div>
+      <form id="bookingForm" class="booking-form">
+        <p class="eyebrow">TABLE REQUEST</p><h2>Let’s plan your visit.</h2>
+        <div class="form-row"><div class="form-field"><label for="fullName">Full name *</label><input id="fullName" name="fullName" type="text" placeholder="Your name" required minlength="2" pattern="[A-Za-z .'-]{2,}" title="Enter at least 2 letters."></div><div class="form-field"><label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div></div>
+        <div class="form-row"><div class="form-field"><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" placeholder="10-digit mobile number" required pattern="[6-9][0-9]{9}" title="Enter a valid 10-digit Indian mobile number."></div><div class="form-field"><label for="date">Preferred date *</label><input id="date" name="date" type="date" required></div></div>
+        <div class="form-row"><div class="form-field"><label for="time">Preferred time *</label><input id="time" name="time" type="time" min="09:00" max="21:00" required></div><div class="form-field"><label for="guests">Number of guests *</label><input id="guests" name="guests" type="number" min="1" max="12" value="2" required></div></div>
+        <div class="form-field"><label for="occasion">Occasion</label><select id="occasion" name="occasion"><option value="casual">Just a coffee</option><option value="work">Work / study</option><option value="birthday">Birthday</option><option value="celebration">Special celebration</option></select></div>
+        <fieldset class="form-field"><legend>Seating preference *</legend><div class="radio-row"><label><input type="radio" name="seating" value="Indoor" required> Indoor</label><label><input type="radio" name="seating" value="Outdoor"> Outdoor</label><label><input type="radio" name="seating" value="No preference"> No preference</label></div></fieldset>
+        <div class="form-field"><label for="requests">Special requests</label><textarea id="requests" name="requests" rows="3" maxlength="300" placeholder="Allergies, accessibility needs, or anything we should know"></textarea></div>
+        <label class="check-row"><input type="checkbox" name="updates"> Send me occasional café updates</label>
+        <button class="btn btn-primary form-submit" type="submit">Send booking request →</button>
+        <p class="form-note">Demo form: this shows a confirmation in your browser and does not send a real reservation.</p>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="index.html">Brew <em>& Bloom</em></a><p>Good things take time. We’ll save you a seat.</p><div class="footer-bottom"><span>© <span class="year"></span> Brew & Bloom Café</span><span>Made with care & a little caffeine.</span></div></footer>
+</body>
+</html>
