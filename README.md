@@ -1,4 +1,4 @@
-# [Brew & Bloom Café — Web Technology Assignment 1] (https://celebrated-granita-54bc98.netlify.app)
+## [Brew & Bloom Café — Web Technology Assignment 1] (https://celebrated-granita-54bc98.netlify.app)
 
 A responsive, multi-page café website made with HTML5, CSS3 and vanilla JavaScript.
 
