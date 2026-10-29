@@ -1,4 +1,4 @@
-# Brew & Bloom Café — Web Technology Assignment 1
+# # [Brew & Bloom Café — Web Technology Assignment 1]([http[s://celebrated-granita-54bc98.netlify.app/]
 
 A responsive, multi-page café website made with HTML5, CSS3 and vanilla JavaScript.
 
@@ -29,9 +29,3 @@ A responsive, multi-page café website made with HTML5, CSS3 and vanilla JavaScr
 ## Deploy
 Push the project folder to a GitHub repository. Import that repository into Vercel or Netlify and deploy the static site. The entry page is `index.html`.
 
-## Before submission
-- Replace the sample address and `hello@example.com` with your actual project details if desired.
-- The booking form is a front-end demo only; it does not submit to a real booking service.
-- Confirm all remote media loads in your deployment.
-- Add regular, meaningful Git commits and include your deployed URL in the submission.
-- This project is a student-created sample and does not represent a real café.
